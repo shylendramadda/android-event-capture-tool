@@ -1,0 +1,85 @@
+
+{"timestamp":1742893693643,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893693645,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}
+{"timestamp":1742893694479,"eventType":"onAccessibilityEvent","details":"Event received: 1"}
+{"timestamp":1742893694484,"eventType":"View Clicked:","details":"[SHOW A DIALOG]"}
+{"timestamp":1742893694511,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893694516,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}
+{"timestamp":1742893694611,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893694614,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893695595,"eventType":"onAccessibilityEvent","details":"Event received: 1"}
+{"timestamp":1742893695600,"eventType":"View Clicked:","details":"[OK]"}
+{"timestamp":1742893695625,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893695629,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}
+{"timestamp":1742893696279,"eventType":"onAccessibilityEvent","details":"Event received: 1"}
+{"timestamp":1742893696283,"eventType":"View Clicked:","details":"[]"}
+{"timestamp":1742893696285,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893696288,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893696310,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893696315,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893696381,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893696385,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893696480,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893696485,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893696581,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893696584,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893696680,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893696686,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893697242,"eventType":"onAccessibilityEvent","details":"Event received: 1"}
+{"timestamp":1742893697248,"eventType":"View Clicked:","details":"[Open navigation drawer]"}
+{"timestamp":1742893697349,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893697352,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893697464,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893697469,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893697580,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893697584,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893697666,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893697669,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893697672,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893697674,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}
+{"timestamp":1742893698740,"eventType":"onAccessibilityEvent","details":"Event received: 1"}
+{"timestamp":1742893698743,"eventType":"View Clicked:","details":"[Home]"}
+{"timestamp":1742893698770,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893698773,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893698866,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893698869,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893698985,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893698988,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893699103,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893699105,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893699173,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893699175,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893699179,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893699185,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}
+{"timestamp":1742893699626,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893699629,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893699720,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893699725,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893700329,"eventType":"onAccessibilityEvent","details":"Event received: 1"}
+{"timestamp":1742893700335,"eventType":"View Clicked:","details":"[Open navigation drawer]"}
+{"timestamp":1742893700442,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893700446,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893700558,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893700564,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893700676,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893700681,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893700764,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893700771,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893700775,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893700778,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}
+{"timestamp":1742893701092,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893701096,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893701099,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893701101,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}
+{"timestamp":1742893701105,"eventType":"onAccessibilityEvent","details":"Event received: 1"}
+{"timestamp":1742893701108,"eventType":"View Clicked:","details":"[Slideshow]"}
+{"timestamp":1742893701192,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893701195,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893701308,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893701312,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893701411,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893701414,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893701539,"eventType":"onAccessibilityEvent","details":"Event received: 2048"}
+{"timestamp":1742893701544,"eventType":"Event received: ","details":"2048"}
+{"timestamp":1742893701547,"eventType":"onAccessibilityEvent","details":"Event received: 32"}
+{"timestamp":1742893701550,"eventType":"App Launched or Window Changed:","details":"com.opentext.androidtestapp"}

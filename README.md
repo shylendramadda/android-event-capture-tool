@@ -12,3 +12,5 @@ This swing application is used to capture the different events from android devi
 - Start Capture Video
 - Stop Capture Video
 - Export Video
+
+![Event Capture Tool](CaptureTool.png)
