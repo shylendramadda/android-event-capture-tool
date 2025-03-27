@@ -4,11 +4,11 @@ import java.awt.GridLayout;
 import javax.swing.*;
 
 public class AndroidEventApp {
-    private static final String sourceLogFilePath = "/sdcard/Android/data/com.opentext.androidagent/files/";
+    private static final String sourceFilePath = "/sdcard/Android/data/com.opentext.androidagent/files/";
+    private static final String destinationPath = "~/Downloads/";
     private static final String logFileName = "events_log.json";
     private static final String videoFileName = "screen_video.mp4";
     private static final String screenshotFileName = "screenshot1.png";
-    private static final String destinationPath = "~/Downloads/";
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(AndroidEventApp::createAndShowGUI);
@@ -30,23 +30,32 @@ public class AndroidEventApp {
         JButton startVideoButton = new JButton("Start Capture Video");
         JButton stopVideoButton = new JButton("Stop Capture Video");
         JButton exportVideoButton = new JButton("Export Video");
+        JButton deleteLogFileButton = new JButton("Delete Log File");
+        JButton deleteVideoButton = new JButton("Delete Video");
 
         startCaptureButton.addActionListener(
-                e -> executeADBCommand("adb shell getevent -l > " + sourceLogFilePath + logFileName));
+                e -> executeADBCommand("adb shell getevent -l > " + sourceFilePath + logFileName));
         exportLogsButton.addActionListener(
                 e -> executeADBCommand(
-                        "adb pull " + sourceLogFilePath + logFileName + " " + destinationPath + logFileName));
+                        "adb pull " + sourceFilePath + logFileName + " " + destinationPath + logFileName));
         decryptLogsButton.addActionListener(e -> DecryptionUtils.decryptFile(logFileName));
         captureScreenshotButton
-                .addActionListener(e -> executeADBCommand("adb shell screencap -p /sdcard/" + screenshotFileName));
+                .addActionListener(
+                        e -> executeADBCommand("adb shell screencap -p " + sourceFilePath + screenshotFileName));
         exportScreenshotButton.addActionListener(
-                e -> executeADBCommand("adb pull /sdcard/" + screenshotFileName + " " + destinationPath
+                e -> executeADBCommand("adb pull " + sourceFilePath + screenshotFileName + " " + destinationPath
                         + screenshotFileName));
         startVideoButton.addActionListener(
-                e -> executeADBCommand("adb shell screenrecord --time-limit 10 /sdcard/" + videoFileName));
+                e -> executeADBCommand(
+                        "adb shell screenrecord --time-limit 10 " + sourceFilePath + videoFileName));
         stopVideoButton.addActionListener(e -> executeADBCommand("adb shell pkill -l2 screenrecord"));
         exportVideoButton.addActionListener(
-                e -> executeADBCommand("adb pull /sdcard/" + videoFileName + " " + destinationPath + videoFileName));
+                e -> executeADBCommand(
+                        "adb pull " + sourceFilePath + videoFileName + " " + destinationPath + videoFileName));
+        deleteLogFileButton.addActionListener(
+                e -> executeADBCommand("adb shell rm " + sourceFilePath + logFileName));
+        deleteVideoButton.addActionListener(
+                e -> executeADBCommand("adb shell rm " + sourceFilePath + videoFileName));
 
         panel.add(startCaptureButton);
         panel.add(exportLogsButton);
@@ -56,6 +65,8 @@ public class AndroidEventApp {
         panel.add(startVideoButton);
         panel.add(stopVideoButton);
         panel.add(exportVideoButton);
+        panel.add(deleteLogFileButton);
+        panel.add(deleteVideoButton);
 
         frame.add(panel, BorderLayout.CENTER);
         frame.setVisible(true);
